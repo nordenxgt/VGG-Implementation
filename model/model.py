@@ -3,7 +3,7 @@ from typing import List, Union
 import torch
 from torch import nn
 
-from configurations import cfgs
+from vgg_config import cfgs
 
 class VGG(nn.Module):
     def __init__(self, vgg_name: str, num_classes: int = 1000) -> None:
