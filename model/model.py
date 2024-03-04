@@ -19,6 +19,8 @@ class VGG(nn.Module):
             nn.Linear(4096, num_classes)
         )
 
+        self._init_layers()
+
     def _make_layers(self, cfg: List[Union[str, int]]):
         layers = []
         in_channels = 3
@@ -37,6 +39,12 @@ class VGG(nn.Module):
                 layers.append(nn.ReLU(inplace=True))
                 in_channels = x
         return nn.Sequential(*layers)
+
+    def _init_layers(self):
+        for m in self.modules():
+            if isinstance(m, nn.Conv2d) or isinstance(m, nn.Linear):
+                nn.init.normal_(m.weight, 0, 1e-2)
+                nn.init.constant_(m.bias, 0)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         x = self.features(x)
