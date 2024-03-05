@@ -1,14 +1,14 @@
 # VGG-Implementation
 
-# Configuration
-
-<img src="./images/configurations.png" alt="VGG Configurations" style="width:100%;">
-
 "Very Deep Convolutional Networks for Large-Scale Image Recognition" by Karen Simonyan and Andrew Zisserman.
 
 Paper: https://arxiv.org/pdf/1409.1556.pdf
 
-# Architecture
+## Configuration
+
+<img src="./images/configurations.png" alt="VGG Configurations" style="width:100%;">
+
+## Architecture
 
 <img src="./images/architecture.png" alt="VGG Architecture" style="width:100%;">
 
