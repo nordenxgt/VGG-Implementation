@@ -2,7 +2,7 @@
 
 # Configuration
 
-![VGG Configurations](./images/configurations.png)
+<img src="./images/configurations.png" alt="VGG Configurations" style="width:100%;">
 
 "Very Deep Convolutional Networks for Large-Scale Image Recognition" by Karen Simonyan and Andrew Zisserman.
 
@@ -10,7 +10,7 @@ Paper: https://arxiv.org/pdf/1409.1556.pdf
 
 # Architecture
 
-![VGG Architecture](./images/architecture.png)
+<img src="./images/architecture.png" alt="VGG Architecture" style="width:100%;">
 
 ## Different day, same old story
 
@@ -28,25 +28,28 @@ python info.py
 
 ### VGG11 (A)
 
-![vgg11](./images/vgg11.jpg)
+<img src="./images/vgg11.jpg" alt="vgg11" style="width:100%;">
 
 ### VGG11_LRN (A-LRN)
 
-![vgg11_lrn](./images/vgg11_lrn.jpg)
+<img src="./images/vgg11_lrn.jpg" alt="vgg11_lrn" style="width:100%;">
 
 ### VGG13 (B)
 
-![vgg13](./images/vgg13.jpg)
+<img src="./images/vgg13.jpg" alt="vgg13" style="width:100%;">
+
 
 ### VGG16_1 (C)
-![vgg16_1](./images/vgg16_1.jpg)
+
+<img src="./images/vgg16_1.jpg" alt="vgg16_1" style="width:100%;">
 
 ### VGG16 (D)
 
-![vgg16](./images/vgg16.jpg)
+<img src="./images/vgg16.jpg" alt="vgg16" style="width:100%;">
 
-### VGG19 (D)
-![vgg19](./images/vgg19.jpg)
+### VGG19 (E)
+
+<img src="./images/vgg19.jpg" alt="vgg19" style="width:100%;">
 
 ## Usage
 
