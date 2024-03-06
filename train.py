@@ -5,9 +5,8 @@ import torch.nn.functional as F
 
 from tqdm import tqdm
 
-from get_model import get_model
 from dataloader import dataloader
-from utils import plot_loss_accuracy, calculate_accuracy
+from utils import plot_loss_accuracy, calculate_accuracy, get_model
 
 def main(epochs: int, vgg: str):
     model = get_model(vgg)

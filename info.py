@@ -1,7 +1,7 @@
 import torch
 from torchinfo import summary
 
-from get_model import get_model
+from utils import get_model
 
 def main():
     vggs = ["vgg11", "vgg11_LRN", "vgg13", "vgg16_1", "vgg16", "vgg19"]
