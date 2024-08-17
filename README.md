@@ -72,4 +72,3 @@ python train.py --epochs 74 --vgg vgg16
       url={https://arxiv.org/abs/1409.1556}, 
 }
 ```
-```
