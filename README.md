@@ -58,3 +58,18 @@ Before running the script, place your data directory location for both train and
 ```sh
 python train.py --epochs 74 --vgg vgg16
 ```
+
+## Citation
+
+```
+@misc{simonyan2015deepconvolutionalnetworkslargescale,
+      title={Very Deep Convolutional Networks for Large-Scale Image Recognition}, 
+      author={Karen Simonyan and Andrew Zisserman},
+      year={2015},
+      eprint={1409.1556},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/1409.1556}, 
+}
+```
+```
